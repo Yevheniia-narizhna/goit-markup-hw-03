@@ -189,7 +189,6 @@ border-bottom: 1px solid #e7e9fc;
 .page-nav {
 display: flex;
 gap: 40px;
-align-items: center;
 margin-right: auto;
 }
 .page-contacts {
