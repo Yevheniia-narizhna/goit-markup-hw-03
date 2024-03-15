@@ -121,7 +121,9 @@ background-color: #F4F4FD;
 }
 .frame {
 background-color: #FFFFFF;
+width: calc((100% - 24px) / 4);
 }
+
 .logof {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -151,26 +153,40 @@ ul {
         margin-left: auto;
         margin-right: auto;
 }
+
 .page-header .container {
 display: flex;
-flex-direction: row;
 align-items: center;
-justify-content: space-between;
 border-bottom: 1px solid #e7e9fc;
  }
 
 .page-nav {
 display: flex;
+
 }
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.team {
+    display: flex;
+    gap: 24px;
+}
+
+
+.features {
+display: flex;
+gap: 24px;
+}
+.item-feature {
+width: calc((100% - 24px) / 4);
+}
 .cards {
     display: flex;
         flex-wrap: wrap;
-        row-gap: 24px;
-        column-gap: 48px; 
+        row-gap: 48px;
+        column-gap: 24px; 
         padding: 0;
 }
 
