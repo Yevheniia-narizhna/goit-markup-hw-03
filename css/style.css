@@ -177,11 +177,13 @@ img {
         margin-right: auto;
 }
 
-.page-header .container {
+.page-header .header-container {
 display: flex;
 padding-top: 24px;
 padding-bottom: 24px;
 align-items: center;
+margin-left: 0;
+margin-right: 0;
 border-bottom: 1px solid #e7e9fc;
  }
 
