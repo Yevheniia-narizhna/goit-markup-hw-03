@@ -236,3 +236,6 @@ width: calc((100% - 24px) / 4);
 .item-card {
      width: calc((100% - 48px) / 3);
 }
+.page-footer {
+    height: 312px;
+}
