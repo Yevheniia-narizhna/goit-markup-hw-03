@@ -193,11 +193,7 @@ margin: 0 auto;
 
 .header-nav {
 display: flex;
-margin-top: 24px;
-margin-bottom: 24px;
 align-items: center;
-margin-inline-start: 0;
-margin-inline-end: 0;
  }
  .page-nav {
     display: flex;
