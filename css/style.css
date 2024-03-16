@@ -205,6 +205,8 @@ margin-inline-end: 0;
 .page-contacts {
 display: flex;
 gap: 40px;
+margin-top: 24px;
+margin-bottom: 24px;
 align-items: center;
 }
 .first-section {
