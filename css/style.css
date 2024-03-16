@@ -47,6 +47,7 @@ width: 496px;
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .logo {
@@ -92,14 +93,10 @@ border-radius: 4px;
 cursor: pointer;
 font-family: inherit;
 text-align: center;
-margin-bottom: 188px;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 32px;
-padding-right: 32px;
-margin-right: auto;
-margin-left: auto;
+min-width: 169px;
+height: 56px;
 display: block;
+border: none;
 }
 
 .first-section .button:active {
@@ -125,6 +122,12 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
+}
+.name-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .text-footer {
@@ -136,10 +139,13 @@ color: #434455;
 }
 .third-section {
 background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .frame {
 background-color: #FFFFFF;
-width: calc((100% - 24px) / 4);
+width: calc((100% - 3*24px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .logof {
@@ -172,28 +178,39 @@ img {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+}
+.page-header {
+border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
+display: flex;
+}
+
+.header-nav {
 display: flex;
 margin-top: 24px;
 margin-bottom: 24px;
 align-items: center;
 margin-inline-start: 0;
 margin-inline-end: 0;
-border-bottom: 1px solid #e7e9fc;
  }
+ .page-nav {
+    display: flex;
+    gap: 40px;
+ }
+.page-contacts {
+display: flex;
+gap: 40px;
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+}
+.first-section {
+padding: 188px 0
 }
 .page-title {
     text-align: center;
-    margin: top 188px;
-    padding-bottom: 48px;
+    max-width: 496px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -202,15 +219,23 @@ border-bottom: 1px solid #e7e9fc;
     gap: 24px;
     text-align: center;
 }
-
-
 .features {
 display: flex;
 gap: 24px;
 text-align: left;
 }
 .item-feature {
-width: calc((100% - 24px) / 4);
+width: calc((100% - 72px) / 4);
+}
+.name-third {
+text-align: center;
+margin-bottom: 8px;
+}
+.t-third {
+text-align: center;
+}
+.name-text {
+    padding: 32px 0;
 }
 .cards {
     display: flex;
