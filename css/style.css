@@ -188,6 +188,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .header-container {
 display: flex;
+margin: 0 auto;
 }
 
 .header-nav {
@@ -205,9 +206,6 @@ margin-inline-end: 0;
 .page-contacts {
 display: flex;
 gap: 40px;
-margin-top: 24px;
-margin-bottom: 24px;
-align-items: center;
 }
 .first-section {
 padding: 188px 0
