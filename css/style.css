@@ -218,8 +218,13 @@ padding: 188px 0
     gap: 24px;
     text-align: center;
 }
-.second-section .section-four {
-padding: 120px 0;
+.second-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.section-four {
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .features {
 display: flex;
