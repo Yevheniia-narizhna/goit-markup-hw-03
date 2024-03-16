@@ -185,19 +185,7 @@ margin-left: 0;
 margin-right: 0;
 border-bottom: 1px solid #e7e9fc;
  }
-
-.page-nav {
-display: flex;
-gap: 40px;
-margin-right: auto;
-}
-.page-contacts {
-    display: flex;
-    gap: 40px;  
-  margin-right: 0;
-  margin-left: 332px;
-justify-content: flex-end;
-}
+ 
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -238,4 +226,6 @@ width: calc((100% - 24px) / 4);
 }
 .page-footer {
     height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
