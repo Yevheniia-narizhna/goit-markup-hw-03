@@ -203,7 +203,7 @@ align-items: center;
 display: flex;
 gap: 40px;
 align-items: center;
-margin-right: 0;
+justify-content: flex-end;
 }
 .first-section {
 padding: 188px 0
